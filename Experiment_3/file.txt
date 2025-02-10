@@ -1,4 +1,4 @@
 This is Experiment_3 of Python Programming Language.
 Speech for Udyam Saman:
-Good Morning Everyone!A very warm welcome to all the estemmed industry professionals, respected professors, faculty members and dear students to Udyam Saman 3.0. 
+Good Morning Everyone!A very warm welcome to all the esteemed industry professionals, respected professors, faculty members and dear students to Udyam Saman 3.0. 
 A platform where academia meets industry, innovation meets experience and ideas meet opportunities.
