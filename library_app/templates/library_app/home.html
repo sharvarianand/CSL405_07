@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .endpoint {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 4px solid #4285f4;
+        }
+        .date {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Library Management API</h1>
+    <p class="date">Today's date: {{ today }}</p>
+    
+    <h2>Available Endpoints:</h2>
+    <div class="endpoint">
+        <strong>Admin Interface:</strong> <a href="/admin/">/admin/</a>
+    </div>
+    <div class="endpoint">
+        <strong>Authors API:</strong> <a href="/api/authors/">/api/authors/</a>
+    </div>
+    <div class="endpoint">
+        <strong>Books API:</strong> <a href="/api/books/">/api/books/</a>
+    </div>
+    
+    <h2>API Documentation:</h2>
+    <p>Use the following endpoints to interact with the API:</p>
+    
+    <h3>Authors:</h3>
+    <ul>
+        <li><code>GET /api/authors/</code> - List all authors</li>
+        <li><code>POST /api/authors/</code> - Create a new author</li>
+        <li><code>GET /api/authors/{id}/</code> - Get a specific author</li>
+        <li><code>PUT /api/authors/{id}/</code> - Update an author</li>
+        <li><code>DELETE /api/authors/{id}/</code> - Delete an author</li>
+    </ul>
+    
+    <h3>Books:</h3>
+    <ul>
+        <li><code>GET /api/books/</code> - List all books</li>
+        <li><code>POST /api/books/</code> - Create a new book</li>
+        <li><code>GET /api/books/{id}/</code> - Get a specific book</li>
+        <li><code>PUT /api/books/{id}/</code> - Update a book</li>
+        <li><code>DELETE /api/books/{id}/</code> - Delete a book</li>
+    </ul>
+</body>
+</html>
